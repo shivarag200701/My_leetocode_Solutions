@@ -1,5 +1,6 @@
 class Solution(object):
     def findMaxAverage(self, nums, k):
+        # medium
         n = len(nums)
         windowSum = sum(nums[:k])
         maxSum = windowSum
