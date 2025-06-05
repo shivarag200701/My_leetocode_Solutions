@@ -1,5 +1,6 @@
 class Solution(object):
     def maxProfit(self, prices):
+        ##easy
         n = len(prices)
         maxProfit = 0
         left = 0
