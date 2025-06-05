@@ -1,5 +1,6 @@
 class Solution(object):
     def checkInclusion(self, s1, s2):
+        ##medium
         n1 = len(s1)
         n2 = len(s2)
         arr1 = [0] * 26
